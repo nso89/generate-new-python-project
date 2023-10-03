@@ -27,7 +27,7 @@ def main():
         print(f"Generating: {project_name}")
         project_folder.mkdir(parents = False, exist_ok = False)
 
-        print(f"Copying main.py to {project_folder}")
+        print(f"Copying {MAIN_PY}} to {project_folder}")
         shutil.copy(src = MAIN_PY, dst = project_folder)
     
     except (FileExistsError, FileNotFoundError, ValueError) as e:
