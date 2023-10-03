@@ -28,7 +28,7 @@ C:\Users\nso89>cd generate-new-python-project-main
 
 **Example**:
 ```batch
-C:\Users\nso89\job-workflow-main>python main.py
+C:\Users\nso89\generate-new-python-project-main>python main.py
 ```
 
 3. It asks you for the `Project Name`.
