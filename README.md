@@ -1,5 +1,5 @@
-# project-name
-Project Description
+# generate-new-python-project
+Generate New Python Project 
 
 * [Prerequisites](#prerequisites)
 * [Setup](#setup)
