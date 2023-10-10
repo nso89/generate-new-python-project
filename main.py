@@ -30,7 +30,7 @@ def main():
         print(f"Copying {MAIN_PY} to {project_folder}")
         shutil.copy(src = MAIN_PY, dst = project_folder)
     
-    except (FileExistsError, FileNotFoundError, ValueError) as e:
+    except (FileExistsError, FileNotFoundError, OSError, ValueError) as e:
         print(e)
 
 if __name__ == "__main__":
